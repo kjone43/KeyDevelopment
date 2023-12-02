@@ -106,11 +106,11 @@ main strong a:visited {
 }
 
 /* moved width and height from HTML file to CSS file */
-/*img {
+img {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 170px;
     height: 130px;
-}*/
+}
 
 p {
     color: #0cd600;
