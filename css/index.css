@@ -60,11 +60,11 @@ main {
     color: #0cd600;
     font-size: 60px;
     font-weight:350;
-    top: 50%;
+    /*top: 50%;
     left: 50%;
     bottom: 70px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 50px;*/
 }
 
 aside {
@@ -218,7 +218,6 @@ section h2 p {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: right;
-    padding: 0%;
 }
 
 .container {
