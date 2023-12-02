@@ -64,7 +64,9 @@ main {
     left: 50%;
     bottom: 70px;
     margin-top: 50px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 aside {
