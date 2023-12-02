@@ -210,7 +210,7 @@ body p {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#0cd600;
     text-align: right;
-    padding: 0%;
+    /*padding: 0%;*/
 }
 
 section h2 p {
@@ -234,7 +234,7 @@ section h2 p {
 
  body section main {
     text-align: left;
-    font-size: 50px;
+    font-size: 20px;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
