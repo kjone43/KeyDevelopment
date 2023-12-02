@@ -213,11 +213,13 @@ body p {
     /*padding: 0%;*/
 }
 
-section h2 p {
+section p {
     font-size: 20px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: right;
+    padding: 0;
+    margin-top: 30;
 }
 
 .container {
@@ -234,7 +236,7 @@ section h2 p {
 
  body section main {
     text-align: left;
-    font-size: 20px;
+    font-size: 50px;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
