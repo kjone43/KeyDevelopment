@@ -249,7 +249,7 @@ section p {
   .container {
     text-align: left;
     max-width: 800px;
-    padding: 20px;
+    margin: 0 auto;
   }
   
   .section {
@@ -267,7 +267,7 @@ section p {
   .services-list li {
     list-style-type: square;
   }
-  
+
   .ServicesTitle {
     position: fixed;
     left: 0;
