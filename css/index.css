@@ -18,18 +18,24 @@ header {
     color:#0cd600;
     font-size: 25px;
     font-weight: bolder;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
+
 #navbar ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none;
     display: flex;
-    justify-content: space-around; /* Spread the list items */
+    justify-content: space-around;
     background-color: lightgray; /* Optional: Just to visualize */
+    position: fixed;
+    top: 0;
+    right: 30%;
+    text-align: center;
   }
   
   #navbar ul li {
     display: inline;
     padding: 10px;
+    margin: 5px;
   }
   
   #navbar ul li a {
