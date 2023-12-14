@@ -249,14 +249,14 @@ section p {
   }
 
   /* Services Page*/
- /*.container2 {
+  .container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: white; 
-  }*/
+  }
   
  .services_dis {
     width: 70%;
