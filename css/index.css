@@ -246,7 +246,28 @@ section p {
   }
 
   /* Services Page*/
-
+  .container {
+    text-align: left;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .services-list {
+    padding-left: 20px;
+  }
+  
+  .services-list li {
+    list-style-type: square;
+  }
+  /*
 .container {
     display: flex;
     justify-content: center;
