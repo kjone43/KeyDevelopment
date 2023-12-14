@@ -29,26 +29,12 @@ function createNavBar() {
 createNavBar();
 
 
-let slideIndex = 0;
-const slides = document.querySelectorAll('.gallery-image');
+let imageContainer = document.getElementById('imageContainer');
 
-function showSlide(n) {
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
-  slideIndex += n;
-  if (slideIndex >= slides.length) {
-    slideIndex = 0;
-  }
-  if (slideIndex < 0) {
-    slideIndex = slides.length - 1;
-  }
-  slides[slideIndex].style.display = 'block';
+function scrollRight() {
+  imageContainer.scrollLeft += 100; // Change the value to control scroll distance
 }
 
-function changeSlide(n) {
-  showSlide(n);
+function scrollLeft() {
+  imageContainer.scrollLeft -= 100; // Change the value to control scroll distance
 }
-
-// Show the first image initially
-showSlide(slideIndex);
