@@ -1,4 +1,4 @@
-// Navigation bar data
+// Navigation barr
 const navLinks = [
     { text: 'Home', link: '#' },
     { text: 'About', link: '#about' },
@@ -27,12 +27,24 @@ function createNavBar() {
     navbar.appendChild(ul);
 }
 
-// Call the function to create the navigation bar
+
 createNavBar();
+
+const imagePaths = ['review.png', 'review2.png']; 
+
+const gallery = document.getElementById('imageGallery');
+
+imagePaths.forEach((path, index) => {
+    const img = document.createElement('img');
+    img.src = path;
+    img.alt = `Image ${index + 1}`;
+    img.onclick = () => openModal(path);
+    gallery.appendChild(img);
+});
 
 function openModal(imageSrc) {
     const modal = document.getElementById('modal');
-    const modalImg = document.getElementById('modal-img');
+    const modalImg = document.getElementById('modalImg');
 
     modal.style.display = 'block';
     modalImg.src = imageSrc;
