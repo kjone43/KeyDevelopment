@@ -13,7 +13,6 @@ body {
     font-family: myFirstFont;
     src: url(BebasNeue-Regular.ttf);
 }
-/*
 header {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#0cd600;
@@ -21,7 +20,23 @@ header {
     font-weight: bolder;
     margin-bottom: 0;
 }
-
+#navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    justify-content: space-around; /* Spread the list items */
+    background-color: lightgray; /* Optional: Just to visualize */
+  }
+  
+  #navbar ul li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+/*
 ul {
     position: fixed;
     top: 0;
@@ -32,12 +47,12 @@ ul {
 li {
     list-style-type: none;
     display: inline;
-   /* padding: 10px;*/
-    /*margin: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 
 /* Took away Showcard gothic and Segoe UI because I could not find them in google or adobe fonts. Added my own font in and added back ups. */
-nav ul li a {
+/*nav ul li a {
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     word-spacing: normal;
@@ -53,7 +68,7 @@ nav ul li a:hover {
 
 nav ul li a:visited {
     color:black;
-}
+} */
 
 main {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
