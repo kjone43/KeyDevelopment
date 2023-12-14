@@ -274,8 +274,8 @@ section:first-child {
   
  .services_dis {
     width: 70%;
-    margin: 20px 0;
-    padding: 10px;
+    margin: 0;
+    padding:0;
     border: 1px solid #ccc;
     border-radius: 1px;
     text-align: left;
@@ -342,5 +342,6 @@ section:first-child {
     text-orientation: upright;
     /* Optionally, you can add additional styling */
     width: fit-content;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
   }
