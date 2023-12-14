@@ -240,17 +240,17 @@ section:first-child {
 
 .container {
     width: 80%;
-    margin: 10px auto;
+    margin: 0;
     overflow: hidden;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0;
   }
 
 .column {
     width: 48%;
     float: right; /* Change float to right */
-    margin: 1%;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
   }
 
  section main {
