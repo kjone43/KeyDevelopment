@@ -42,20 +42,20 @@ document.addEventListener("DOMContentLoaded", function() {
       showSlides(slideIndex = n);
     }
   
-    function showSlides(n) {
-        const slides = document.getElementsByClassName("gallery-image");
-        
-        if (n > slides.length) {
-          slideIndex = 1;
+    function showSlides() {
+        const slides = document.querySelectorAll(".gallery-image");
+
+        if (slideIndex >= slides.length) {
+            slideIndex = 0;
         }
-        if (n < 1) {
-          slideIndex = slides.length;
+        if (slideIndex < 0) {
+            slideIndex = slides.length - 1;
         }
-        
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none"; // Hide all images
-        }
-        
-        slides[slideIndex - 1].style.display = "block"; // Show the current image
-      }
-  });
+
+        slides.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        slides[slideIndex].classList.add("active");
+    }
+});
