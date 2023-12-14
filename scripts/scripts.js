@@ -43,16 +43,19 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     function showSlides(n) {
-      const slides = document.getElementsByClassName("gallery-image");
-      if (n > slides.length) {
-        slideIndex = 1;
+        const slides = document.getElementsByClassName("gallery-image");
+        
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; // Hide all images
+        }
+        
+        slides[slideIndex - 1].style.display = "block"; // Show the current image
       }
-      if (n < 1) {
-        slideIndex = slides.length;
-      }
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndex - 1].style.display = "block";
-    }
   });
