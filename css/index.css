@@ -233,7 +233,7 @@ section p {
     overflow: hidden;
   }
 
-  .column {
+.column {
     width: 48%;
     float: right; /* Change float to right */
     margin: 1%;
@@ -247,13 +247,13 @@ section p {
   }
 
   /* Services Page*/
-  .container2 {
+ .container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh; /* Adjust height for full viewport height */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: white;
   }
   
