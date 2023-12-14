@@ -30,7 +30,7 @@ function createNavBar() {
 
 createNavBar();
 
-const imagePaths = ['images/review.png', 'images/review2.png']; 
+const imagePaths = ['images/review.png', 'images/review2png']; 
 
 const gallery = document.getElementById('imageGallery');
 
