@@ -337,11 +337,17 @@ section:first-child {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
+  article {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+  }
+  
   article main {
-    writing-mode: vertical-rl; /* 'rl' stands for right-to-left */
+    writing-mode: vertical-rl;
     text-orientation: upright;
     /* Optionally, you can add additional styling */
     width: fit-content;
     padding: 0;
     margin: 0;
+    margin-right: 20px; /* Adjust as needed */
   }
