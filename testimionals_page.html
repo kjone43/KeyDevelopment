@@ -23,13 +23,15 @@
 		</div>
 		</header>
 		<article> Oh! So you need more proof </article>
-		<div class="gallery" id="imageGallery">
-			<!-- Gallery images will be added here dynamically -->
-		</div>
-		
-		<div id="modal" class="modal">
-			<span class="close" onclick="closeModal()">&times;</span>
-			<img id="modalImg" class="modal-content" src="" alt="Modal Image">
+		<div class="slideshow-container">
+			<div class="slideshow">
+			  <img src="images/review.png" alt="More to come soon" class="gallery-image">
+			  <img src="images/review2.png" alt="Hi, this is a text of a clickable window" class="gallery-image">
+			  <!-- Add more images as needed -->
+			</div>
+		  
+			<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+			<a class="next" onclick="changeSlide(1)">&#10095;</a>
 		</div>
 	</body>
 </html>
