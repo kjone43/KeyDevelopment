@@ -228,12 +228,16 @@ section p {
     display: block;
 }
 
+section:first-child {
+    margin-top: 0;
+}
+
 .container {
     width: 80%;
     margin: 10px auto;
     overflow: hidden;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 .column {
