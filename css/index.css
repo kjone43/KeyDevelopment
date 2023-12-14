@@ -258,7 +258,8 @@ section:first-child {
     font-size: 50px;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 50%
+    margin-top: 0;
+    margin: 50px;
   }
 
   /* Services Page*/
@@ -269,7 +270,7 @@ section:first-child {
     flex-direction: column;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: white; 
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   
  .services_dis {
