@@ -21,44 +21,8 @@ header {
     margin-bottom: 20px;
 }
 
-#navbar ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: lightgray; /* Optional: Just to visualize */
-    position: fixed;
-    top: 0;
-    right: 30%;
-    text-align: center;
-  }
-  
-  #navbar ul li {
-    display: inline;
-    padding: 10px;
-    margin: 5px;
-  }
-  
-  #navbar ul li a {
-    text-decoration: none;
-    color: black;
-  }
-/*
-ul {
-    position: fixed;
-    top: 0;
-    right: 30%;
-    text-align: center;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    margin: 5px;
-}
-
 /* Took away Showcard gothic and Segoe UI because I could not find them in google or adobe fonts. Added my own font in and added back ups. */
-/*nav ul li a {
+#navbar ul li a {
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     word-spacing: normal;
@@ -68,13 +32,13 @@ li {
     font-size: 35px;
 }
 
-nav ul li a:hover {
+#navbar ul li a:hover {
     color:black;
 }
 
-nav ul li a:visited {
+#navbar ul li a:visited {
     color:black;
-} */
+}
 
 main {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
