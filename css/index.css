@@ -292,6 +292,7 @@ section p {
     cursor: pointer;
 }
 
+/* Styling for the gallery images */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -299,7 +300,7 @@ section p {
     align-items: center;
 }
 
-.gallery-image {
+.gallery img {
     width: 200px;
     height: auto;
     margin: 10px;
