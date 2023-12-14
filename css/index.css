@@ -247,35 +247,25 @@ section p {
   }
 
   /* Services Page*/
- 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh; /* Adjust height for full viewport height */
   }
   
-  .section {
+ .services_dis {
     width: 70%;
     margin: 20px 0;
     padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     text-align: left;
-    position: relative;
   }
   
   h3 {
     margin-top: 0;
-  }
-  
-  .services-list {
-    padding-left: 20px;
-    position: absolute; /* Changed to absolute positioning */
-    left: 0; /* Adjust the position as needed */
-    top: 50px;
-  }
-  
-  .services-list li {
-    list-style-type: disc;
   }
 /* testimonials page */
 
