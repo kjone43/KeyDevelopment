@@ -30,18 +30,14 @@ function createNavBar() {
 // Call the function to create the navigation bar
 createNavBar();
 
-const slides = document.querySelectorAll('.slide');
-let currentSlide = 0;
+function openModal(imageSrc) {
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modal-img');
 
-document.getElementById('slideshow').addEventListener('click', () => {
-    currentSlide++;
-    if (currentSlide === slides.length) {
-        currentSlide = 0;
-    }
-    updateSlide();
-});
+    modal.style.display = 'block';
+    modalImg.src = imageSrc;
+}
 
-function updateSlide() {
-    const slideWidth = slides[currentSlide].clientWidth;
-    document.querySelector('.slides').style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
 }

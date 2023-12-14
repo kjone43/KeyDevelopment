@@ -23,13 +23,15 @@
 		</div>
 		</header>
 		<main class="testimonialspage"> Oh! So you need more proof </main>
-		<div class="slideshow" id="slideshow">
-			<div class="slides">
-				<img src="images/review.png" alt="More Coming Soon"/>
-			</div>
-			<div class="slide">
-				<img src="images/review2.png" alt="Hi"/>
-			</div>
+		<div class="gallery">
+			<img src="images/review.png" alt="More to come soon class="gallery-image" onclick="openModal('review')">
+			<img src="images/review2.png" alt="Hi" class="gallery-image" onclick="openModal('review2')">
+			<!-- Add more images with similar onclick function -->
+		</div>
+		
+		<div id="modal" class="modal">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<img id="modal-img" class="modal-content" src="" alt="Modal Image">
 		</div>
 	</body>
 </html>
