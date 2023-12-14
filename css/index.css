@@ -112,6 +112,7 @@ img {
     height: 130px;
 }
 
+/* contact page */
 p {
     color: #0cd600;
     font-family: "myFirstFont", 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
@@ -158,8 +159,8 @@ footer img {
     color:#0cd600;
 }
 
-form p {
-    font-size: 15px;
+body form p {
+    font-size: 10px;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color:#0cd600;
     font-weight: bold;
@@ -196,6 +197,8 @@ input[type=text], textarea, select {
     cursor: pointer;text-transform: uppercase;
 
 }
+
+/* About page */
 body h2 {
     font-size: 30px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -240,3 +243,25 @@ section p {
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+  /* Services Page*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.paragraph {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.services-list {
+    list-style: none;
+    padding-left: 0;
+}
+/* testimonials page */
