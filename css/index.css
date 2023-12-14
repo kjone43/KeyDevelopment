@@ -267,6 +267,31 @@ section p {
   .services-list li {
     list-style-type: square;
   }
+  
+  .ServicesTitle {
+    position: fixed;
+    left: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    transform: rotate(-90deg) translateX(-50%);
+    transform-origin: top left;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  .ServicesTitle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 30px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
+    background-size: 100% 20px;
+  }
   /*
 .container {
     display: flex;
