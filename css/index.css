@@ -156,7 +156,7 @@ footer img {
     margin-bottom:auto;
     float: right;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
-    color:white;
+    color:#191718;
 }
 
 body form p {
@@ -247,70 +247,30 @@ section p {
 
   /* Services Page*/
   .container {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  .services-list {
-    padding-left: 20px;
-  }
-  
-  .services-list li {
-    list-style-type: square;
-  }
-
-  .ServicesTitle {
-    position: fixed;
-    left: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-    transform: rotate(-90deg) translateX(-50%);
-    transform-origin: top left;
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 2px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-  }
-  
-  .ServicesTitle::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 30px;
-    height: 100%;
-    background: linear-gradient(to bottom, transparent 50%, #f0f0f0 50%);
-    background-size: 100% 20px;
-  }
-  /*
-.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-}
-
-.paragraph {
+  }
+  
+  .paragraph {
     width: 70%;
     margin: 20px auto;
-    text-align: left;
-}
-
-.services-list {
-    list-style: none;
-    padding-left: 0;
-}
+    text-align: left; /* Overrides the general text-align: center for specific paragraphs */
+  }
+  
+  .services-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    list-style-type: disc; /* Apply list style to all list items in .services-list */
+  }
+  
+  /* Optionally, you can target specific list items if needed */
+  .services-list li {
+    list-style-type: disc
+  }
 /* testimonials page */
 
 /* Styles for the slideshow */
