@@ -337,7 +337,7 @@ section:first-child {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-  article {
+  article main {
     writing-mode: vertical-rl; /* 'rl' stands for right-to-left */
     text-orientation: upright;
     /* Optionally, you can add additional styling */
