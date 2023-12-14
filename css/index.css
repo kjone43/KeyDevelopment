@@ -13,12 +13,26 @@ body {
     font-family: myFirstFont;
     src: url(BebasNeue-Regular.ttf);
 }
+
 header {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#0cd600;
     font-size: 25px;
     font-weight: bolder;
-    margin-bottom: 20px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    right: 30%;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
 }
 
 /* Took away Showcard gothic and Segoe UI because I could not find them in google or adobe fonts. Added my own font in and added back ups. */
