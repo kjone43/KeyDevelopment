@@ -221,7 +221,7 @@ body p {
 }
 
 section {
-    margin-top: 30px; /* Increase or decrease this value to adjust the gap */
+    margin-top: 0; /* Increase or decrease this value to adjust the gap */
 }
 
 section p {
@@ -253,12 +253,12 @@ section:first-child {
     padding: 10px;
   }
 
- body section main {
+ section main {
     text-align: left;
     font-size: 50px;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   /* Services Page*/
