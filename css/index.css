@@ -282,15 +282,17 @@ section p {
     position: relative;
     max-width: 800px;
     margin: auto;
-  }
-  
-  .slideshow {
-    display: flex;
     overflow: hidden;
   }
   
+  
   .gallery-image {
-    width: 100%;
+    display: none; /* Hide all images by default */
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   
   .prev,
@@ -307,6 +309,7 @@ section p {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    z-index: 1;
   }
   
   .prev {

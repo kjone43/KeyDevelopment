@@ -31,14 +31,9 @@ createNavBar();
 
 
 let slideIndex = 0;
-showSlides(slideIndex);
+const slides = document.querySelectorAll('.gallery-image');
 
-function changeSlide(n) {
-    showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-    let slides = document.getElementsByClassName("gallery-image");
+function showSlide(n) {
     if (n >= slides.length) {
         slideIndex = 0;
     }
@@ -46,7 +41,14 @@ function showSlides(n) {
         slideIndex = slides.length - 1;
     }
     for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+        slides[i].style.display = 'none';
     }
-    slides[slideIndex].style.display = "block";
+    slides[slideIndex].style.display = 'block';
 }
+
+function changeSlide(n) {
+    showSlide(slideIndex += n);
+}
+
+// Show the first image initially
+showSlide(slideIndex);
