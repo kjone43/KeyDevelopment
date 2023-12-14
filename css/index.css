@@ -19,7 +19,6 @@ header {
     color:#0cd600;
     font-size: 25px;
     font-weight: bolder;
-    margin-bottom: 10px;
 }
 
 ul {
@@ -230,7 +229,7 @@ section p {
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     margin-bottom: 20px;
     margin-top: 10px;
