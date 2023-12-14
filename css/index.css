@@ -223,6 +223,7 @@ section p {
     text-align: right;
     padding: 0;
     margin-top: 30;
+    display: block;
 }
 
 .container {
