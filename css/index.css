@@ -22,7 +22,7 @@ header {
 }
 
 /* Took away Showcard gothic and Segoe UI because I could not find them in google or adobe fonts. Added my own font in and added back ups. */
-#navbar ul li a {
+nav ul li a {
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     word-spacing: normal;
@@ -32,11 +32,11 @@ header {
     font-size: 35px;
 }
 
-#navbar ul li a:hover {
+nav ul li a:hover {
     color:black;
 }
 
-#navbar ul li a:visited {
+nav ul li a:visited {
     color:black;
 }
 
