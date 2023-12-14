@@ -263,6 +263,7 @@ section:first-child {
     flex-direction: column;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: white; 
+    margin-bottom: 20px;
   }
   
  .services_dis {
