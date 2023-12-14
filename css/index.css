@@ -278,9 +278,11 @@ section p {
 }
 .slide {
     flex: 0 0 100%;
+}
 
-.testimonialspage {
+main .testimonialspage {
     writing-mode: vertical-lr;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    font-size:large ;
 }
