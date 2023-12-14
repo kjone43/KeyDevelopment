@@ -307,7 +307,7 @@ section p {
     cursor: pointer;
 }
 
-main .test-header {
+article {
     writing-mode: vertical-lr;
     color: #0cd600;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
