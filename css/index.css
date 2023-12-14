@@ -265,6 +265,19 @@ section p {
     padding-left: 0;
 }
 /* testimonials page */
+.slideshow {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.slides {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.slide {
+    flex: 0 0 100%;
 
 .testimonialspage {
     writing-mode: vertical-lr;
