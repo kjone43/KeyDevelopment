@@ -265,3 +265,6 @@ section p {
     padding-left: 0;
 }
 /* testimonials page */
+article {
+    vertical-align: text-top;
+}
