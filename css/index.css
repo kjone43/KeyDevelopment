@@ -285,6 +285,7 @@ section p {
   
   .slideshow {
     display: flex;
+    overflow: hidden;
   }
   
   .gallery-image {
