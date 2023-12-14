@@ -231,12 +231,14 @@ section p {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
 .column {
     width: 48%;
     float: right; /* Change float to right */
     margin: 1%;
+    padding: 10px;
   }
 
  body section main {
