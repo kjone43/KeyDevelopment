@@ -258,8 +258,6 @@ section p {
     width: 70%;
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     text-align: left;
   }
   
@@ -269,6 +267,7 @@ section p {
   
   .services-list {
     padding-left: 20px;
+    position: fixed;
   }
   
   .services-list li {
