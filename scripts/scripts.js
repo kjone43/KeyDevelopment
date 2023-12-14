@@ -1,6 +1,6 @@
 // Navigation barr
 const navLinks = [
-    { text: 'Home', link: '#' },
+    { text: 'Home', link: '#home' },
     { text: 'About', link: '#about' },
     { text: 'Services', link: '#services' },
     { text: 'Contact', link: '#contact' }
