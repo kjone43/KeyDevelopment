@@ -265,9 +265,7 @@ section p {
     padding-left: 0;
 }
 /* testimonials page */
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+
+.testimonialspage {
+    
 }
