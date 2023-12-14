@@ -291,7 +291,7 @@ section:first-child {
 /* Styles for the slideshow */
 .slideshow-container {
     position: relative;
-    max-width: 800px;
+    max-width: 400px;
     margin: auto;
     overflow: hidden;
   }
