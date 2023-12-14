@@ -247,29 +247,23 @@ section p {
 
   /* Services Page*/
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .paragraph {
     width: 70%;
     margin: 20px auto;
-    text-align: left; /* Overrides the general text-align: center for specific paragraphs */
   }
   
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0;
+  } 
   .services-list {
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding-left: 20px;
-    list-style-type: disc; /* Apply list style to all list items in .services-list */
   }
   
-  /* Optionally, you can target specific list items if needed */
   .services-list li {
-    list-style-type: disc
+    list-style-type: disc;
   }
 /* testimonials page */
 
