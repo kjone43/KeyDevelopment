@@ -30,11 +30,8 @@ createNavBar();
 
 
 let imageContainer = document.getElementById('imageContainer');
+let imageWidth = imageContainer.clientWidth; // Width of each image assumed to be the same
 
-function scrollRight() {
-  imageContainer.scrollLeft += 100; // Change the value to control scroll distance
-}
-
-function scrollLeft() {
-  imageContainer.scrollLeft -= 100; // Change the value to control scroll distance
+function scrollNext() {
+  imageContainer.scrollLeft += imageWidth; // Scrolls to the width of an image
 }

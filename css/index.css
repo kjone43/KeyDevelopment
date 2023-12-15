@@ -7,13 +7,10 @@ body {
     font-size: 14px;
     background-size: cover;
 }
-
-
 @font-face {
     font-family: myFirstFont;
     src: url(BebasNeue-Regular.ttf);
 }
-
 header {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#0cd600;
@@ -22,21 +19,18 @@ header {
     margin:0%;
     padding: 0%;
 }
-
 ul {
     position: fixed;
     top: 0;
-    right: 30%;
+    right: 20%;
     text-align: center;
 }
-
 li {
     list-style-type: none;
     display: inline;
     padding: 10px;
     margin: 5px;
 }
-
 /* Took away Showcard gothic and Segoe UI because I could not find them in google or adobe fonts. Added my own font in and added back ups. */
 nav ul li a {
     color: #0cd600;
@@ -47,15 +41,12 @@ nav ul li a {
     font-weight: bold;
     font-size: 35px;
 }
-
 nav ul li a:hover {
     color:black;
 }
-
 nav ul li a:visited {
     color:black;
 }
-
 main {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     text-align: center;
@@ -68,7 +59,6 @@ main {
     margin-top: 50px;
     margin-left: 50px;*/
 }
-
 aside {
     text-align: right;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -77,42 +67,36 @@ aside {
     font-size: 25px;
     width: 70%;
 }
-
 a {
     font-weight: bolder;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-decoration: none;
     color: #0cd600;
 }
-
 aside a:hover {
     color: black;
     text-decoration: none;
 }
-
 aside a:visited {
     color:black
 }
-
 main strong a {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
 }
-
 main strong a:hover {
     color: black;
 }
-
 main strong a:visited {
     color: black;
 }
-
 /* moved width and height from HTML file to CSS file */
 img {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 170px;
     height: 130px;
 }
+
 
 /* contact page */
 p {
@@ -123,11 +107,9 @@ p {
     font-weight: bold;
     float: left;
 }
-
 p strong {
     text-decoration: underline;
 }
-
 footer {
     color:white;
     bottom:0%;
@@ -140,15 +122,11 @@ footer {
    text-transform: uppercase;
    padding: 20px;
 }
-
 footer img {
     width: 150px;
     height: 50px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
-
-
-
 *.contact-form {
     height: auto;
     width: 400px;
@@ -160,7 +138,6 @@ footer img {
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color:white;
 }
-
 body form p {
     font-size: 10px;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
@@ -168,15 +145,12 @@ body form p {
     font-weight: bold;
     text-align: center;
 }
-
 form h1 {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #0cd600;
     font-weight: bolder;
 }
-
-
 input[type=text], textarea, select {
     width: 100%;
     height: 100%;
@@ -188,7 +162,6 @@ input[type=text], textarea, select {
     border-radius: 1px;
     box-sizing: border-box;
 }
-
   input[type=submit] {
     width: 100%;
     background-color: #04AA6D;
@@ -201,6 +174,8 @@ input[type=text], textarea, select {
 
 }
 
+
+
 /* About page */
 body h2 {
     font-size: 30px;
@@ -211,7 +186,6 @@ body h2 {
     text-align: right;
     margin-top: 10px;
 }
-
 body p {
     font-size: 50px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -219,11 +193,9 @@ body p {
     text-align: right;
     /*padding: 0%;*/
 }
-
 section {
     margin-top: 0; /* Increase or decrease this value to adjust the gap */
 }
-
 section p {
     font-size: 20px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -233,11 +205,9 @@ section p {
     margin-top: 30px;
     display: block;
 }
-
 section:first-child {
     margin-top: 0;
 }
-
 .container {
     width: 80%;
     margin: 0;
@@ -245,14 +215,12 @@ section:first-child {
     margin-bottom: 0px;
     margin-top: 0;
   }
-
 .column {
     width: 48%;
     float: right; /* Change float to right */
     margin: 0;
     padding: 0;
   }
-
  section main {
     text-align: left;
     font-size: 50px;
@@ -260,6 +228,8 @@ section:first-child {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 0;
   }
+
+
 
   /* Services Page*/
   .container2 {
@@ -270,22 +240,64 @@ section:first-child {
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: white; 
     margin-bottom: 20px;
+    padding: 0%;
+    text-align: center;
+    margin-left: -70px;
+  }
+  .services_dis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
   }
   
- .services_dis {
-    width: 70%;
-    margin: 0;
-    padding:0;
-    border: 1px solid #ccc;
-    border-radius: 1px;
-    text-align: left;
+  .services_dis p {
+    width: 50%;
+    margin:5px auto; /* Adds space between paragraphs */
+    /*display: block; /* Ensure paragraphs behave as block elements */
+    font-size: 15px;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    text-transform: capitalize;
+    line-height: 1.5; /* Adjust line height for better readability */
+    padding: 0;
+    text-align: center;
   }
-  
   h3 {
     margin-top: 0;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     color: #0cd600;
+    padding: 0%;
+    font-size: 30px;
+    margin: 0;
   }
+  .services-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  
+  }
+  .services-title {
+    writing-mode:horizontal-tb;
+  text-orientation:upright;
+  /* Optionally, you can add additional styling */
+  width: fit-content;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-right: 10px; /* Adjust as needed */
+  margin-left: 10px;
+  font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+  color: #0cd600;
+  font-weight: bolder;
+  font-size: 70px;
+  word-spacing: 2px;
+  }
+
+
+
 /* testimonials page */
 
 /* Styles for the slideshow */
@@ -295,8 +307,6 @@ section:first-child {
     margin: auto;
     overflow: hidden;
   }
-  
-  
   .gallery-image {
     display: none; /* Hide all images by default */
     width: 100%; /* Adjust width as needed */
@@ -304,8 +314,7 @@ section:first-child {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
+  } 
   .prev,
   .next {
     cursor: pointer;
@@ -321,33 +330,45 @@ section:first-child {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
   .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
+  } 
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-
-  article {
+  .window-title {
+    /* Style your title here */
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+ .article-container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     display: flex;
-    align-items: flex-start; /* Align items at the start of the flex container */
-  }
-  
-  article main {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    /* Optionally, you can add additional styling */
-    width: fit-content;
-    padding: 0;
-    margin: 0;
-    margin-right: 20px; /* Adjust as needed */
-  }
+}
+article main {
+  writing-mode:horizontal-tb;
+  text-orientation:upright;
+  /* Optionally, you can add additional styling */
+  width: fit-content;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-right: 10px; /* Adjust as needed */
+  margin-left: 10px;
+  font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+  color: #0cd600;
+  font-weight: bolder;
+  font-size: 70px;
+  word-spacing: 2px;
+}
