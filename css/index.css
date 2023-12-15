@@ -359,25 +359,29 @@ section.education .education-info p {
     text-decoration: underline;
   }
  .article-container {
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; /* Trying to Stack elements vertically */
     align-items: flex-start;
     text-align: center;
     align-items: center;
     display: flex;
 }
-article main {
+main .testimonials-title {
+  font-family:'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
   writing-mode:horizontal-tb;
   text-orientation:upright;
-  /* Optionally, you can add additional styling */
   width: fit-content;
   padding: 30px;
   margin: 0;
   margin-bottom: 20px;
-  margin-right: 10px; /* Adjust as needed */
-  margin-left: 10px;
-  font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+  margin-right: 0px; 
+  margin-left: 100px;
   color: #0cd600;
   font-weight: bolder;
   font-size: 70px;
   word-spacing: 2px;
+  text-align: center;
+  align-items: center;
+}
+.testimonials-title {
+  font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
