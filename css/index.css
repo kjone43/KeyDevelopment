@@ -221,7 +221,7 @@ section p {
     padding: 0;
     text-transform: capitalize;
   }
- section main {
+ .about-title {
     text-align: left;
     font-size: 50px;
     color: #0cd600;
