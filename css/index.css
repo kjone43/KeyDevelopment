@@ -192,18 +192,21 @@ body p {
     color:#0cd600;
     text-align: right;
     padding: 0%;
+    text-transform: capitalize;
 }
 section {
     margin-top: 0; /* Increase or decrease this value to adjust the gap */
+    text-transform: capitalize;
 }
 section p {
-    font-size: 20px;
-    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  white;
     text-align: right;
     padding: 0;
     margin-top: 30px;
     display: block;
+    text-transform: capitalize;
 }
 .container {
     width: 80%;
@@ -211,12 +214,14 @@ section p {
     overflow: hidden;
     margin-bottom: 0px;
     margin-top: 0;
+    text-transform: capitalize;
   }
 .column {
     width: 48%;
     float: right; /* Change float to right */
     margin: 0;
     padding: 0;
+    text-transform: capitalize;
   }
  section main {
     text-align: left;
