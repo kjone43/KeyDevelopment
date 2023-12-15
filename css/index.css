@@ -289,20 +289,24 @@ section.education .education-info p {
   
   }
   .services-title {
-    writing-mode:horizontal-tb;
+  writing-mode:horizontal-tb;
   text-orientation:upright;
-  /* Optionally, you can add additional styling */
   width: fit-content;
   padding: 30px;
   margin: 0;
-  margin-bottom: 20px;
-  margin-right: 10px; /* Adjust as needed */
+  margin-top: 60px;
+  margin-right: 10px; 
   margin-left: 10px;
   font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
   color: #0cd600;
   font-weight: bolder;
   font-size: 70px;
   word-spacing: 2px;
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 
 
@@ -317,9 +321,9 @@ section.education .education-info p {
     overflow: hidden;
   }
   .gallery-image {
-    display: none; /* Hide all images by default */
-    width: 100%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    display: none; 
+    width: 100%; 
+    height: auto; 
     position: absolute;
     top: 0;
     left: 0;
@@ -352,7 +356,7 @@ section.education .education-info p {
     background-color: rgba(0, 0, 0, 0.8);
   }
   .window-title {
-    /* Style your title here */
+    /* Style title */
     margin-bottom: 0;
     text-align: center;
     font-size: 25px;
