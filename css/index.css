@@ -44,9 +44,7 @@ nav ul li a {
 nav ul li a:hover {
     color:#0cd600;
 }
-nav ul li a:visited {
-    color:black;
-}
+
 main {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     text-align: center;
