@@ -61,8 +61,11 @@ main {
     margin-left: 50px;
 }
 aside {
+    postition: fixed;
+    bottom: 0;
+    right: 0;
     text-align: right;
-    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     color: #0cd600;
     text-decoration:none;
     font-size: 25px;
