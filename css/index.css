@@ -40,8 +40,6 @@ nav ul li a {
     width: 100%;
     font-weight: bold;
     font-size: 35px;
-     z-index: 1000;
-    postion: fixed;
 }
 nav ul li a:hover {
     color:#0cd600;
