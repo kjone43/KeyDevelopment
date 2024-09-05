@@ -55,7 +55,7 @@ main {
     left: 50%;
     bottom: 70px;
     margin-top: 50px;
-    margin-left: 50px;*/
+    margin-left: 50px;
 }
 aside {
     text-align: right;
@@ -135,6 +135,7 @@ footer img {
     float: right;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color:white;
+    position: fixed;
 }
 body form p {
     font-size: 10px;
