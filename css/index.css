@@ -18,9 +18,9 @@ header {
     font-weight: bolder;
     margin:0%;
     padding: 0%;
-    position: fixed;
+    postion: fixed;
     top: 0;
-    left: 0;
+    Left: 0;
 }
 ul {
     position: fixed;
@@ -47,7 +47,6 @@ nav ul li a {
 nav ul li a:hover {
     color:#0cd600;
 }
-
 main {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     text-align: center;
@@ -58,14 +57,11 @@ main {
     left: 50%;
     bottom: 70px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 50px;*/
 }
 aside {
-    postition: fixed;
-    bottom: 0;
-    right: 0;
     text-align: right;
-    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #0cd600;
     text-decoration:none;
     font-size: 25px;
@@ -100,8 +96,6 @@ img {
     width: 170px;
     height: 130px;
 }
-
-
 /* contact page */
 p {
     color: #0cd600;
@@ -141,7 +135,6 @@ footer img {
     float: right;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color:white;
-    position: fixed;
 }
 body form p {
     font-size: 10px;
@@ -176,20 +169,8 @@ input[type=text], textarea, select {
     border: none;
     border-radius: 4px;
     cursor: pointer;text-transform: uppercase;
-
 }
-
-
-
 /* About page */
-header {
-    position: fixed; /* Fixes the header at the top */
-    top: 0;
-    left: 0;
-    z-index: 1000; 
-    width: 100%;
-}
-
 body h2 {
     font-size: 30px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -243,7 +224,6 @@ section p {
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 0;
   }
-
 /* Target paragraphs within the education section */
 section.education .education-info p {
     font-size: 20px;
@@ -254,7 +234,6 @@ section.education .education-info p {
     margin-top: 10px; /* Adjust as needed */
     display: block;
 }
-
   /* Services Page*/
   .container2 {
     display: flex;
@@ -323,11 +302,7 @@ section.education .education-info p {
     align-items: center;
     padding: 0;
   }
-
-
-
 /* testimonials page */
-
 /* Styles for the slideshow */
 .slideshow-container {
     position: relative;
@@ -396,10 +371,6 @@ main .testimonials-title {
   margin-left: 100px;
   color: #0cd600;
   font-weight: bolder;
-  font-size: 70px;
-  word-spacing: 2px;
-  text-align: center;
-  align-items: center;
 }
 .testimonials-title {
   font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
