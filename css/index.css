@@ -178,6 +178,17 @@ input[type=text], textarea, select {
 
 
 /* About page */
+header {
+    font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#0cd600;
+    font-size: 25px;
+    font-weight: bolder;
+    margin:0%;
+    padding: 0%;
+    postion: fixed;
+    top: 0;
+    Left: 0;
+}
 body h2 {
     font-size: 30px;
     font-family: 'myFirstFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
